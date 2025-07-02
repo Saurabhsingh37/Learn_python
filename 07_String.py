@@ -85,3 +85,15 @@ print(replace[0:]) # 0 index to last
 print(replace[:5]) # starting to 5 index 
 print(replace[:-1]) # reverse indexing 
 print(replace[::-1]) # reverse string 
+
+
+# --------more functions in python 
+str.endswith("bh") #return true if end of string is bh world 
+
+str.capitalize() #first word is capitalize 
+
+str.replace("old ", "new")#replace sentence
+
+str.count ("saurabh") #count selected sentence 
+
+str.find("word") #find selected word in sentence
