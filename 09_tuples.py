@@ -10,4 +10,4 @@ print ("print last element of tuple : ", tup[-1])
 print("count specify element : ",tup.count(5))
 
 print ("find index of first occurrence", tup.index(5))
-
+# end.
