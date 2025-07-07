@@ -1,51 +1,51 @@
-# # ------for loop in python
-# details = ["name - ", "age - ", "date - ", "city -"]
-# for student in details:
-#     print(student)
+# ------for loop in python
+details = ["name - ", "age - ", "date - ", "city -"]
+for student in details:
+    print(student)
 
 
-# #-------for loop using range function  
-# for i in range (11,20,2): #(11 - starring , 20 - end , 2 - gap )
-#     print (i)
+#-------for loop using range function  
+for i in range (11,20,2): #(11 - starring , 20 - end , 2 - gap )
+    print (i)
     
 
 
-# #------while loop 
-# count = 0
-# while count <= 20:
-#     print(count )
-#     count +=1
+#------while loop 
+count = 0
+while count <= 20:
+    print(count )
+    count +=1
     
 
 
-# #using break ans continue in loops 
-# print ("using break condition :")
-# for i in range(20):
-#     if(i%2==0):
-#         continue # skip 
-#     print(i)
-#     if(i==15):
-#         break #stop 
+#using break ans continue in loops 
+print ("using break condition :")
+for i in range(20):
+    if(i%2==0):
+        continue # skip 
+    print(i)
+    if(i==15):
+        break #stop 
 
 
-# # print number 1 to 10 using while loop 
-# print("\n1 to 10 : - ")
-# i = 0 
-# while i<= 9 :
-#     i+=1
-#     print(i)
+# print number 1 to 10 using while loop 
+print("\n1 to 10 : - ")
+i = 0 
+while i<= 9 :
+    i+=1
+    print(i)
 
     
-# # -----print multiplication table of a number  
-# a =  int (input("enter your number : - "))
-# print(f"your table of {a}")
-# b=0
-# while b<=9:
-#     b+=1
-#     print(f"{a} * {b} = ",a*b)
+# -----print multiplication table of a number  
+a =  int (input("enter your number : - "))
+print(f"your table of {a}")
+b=0
+while b<=9:
+    b+=1
+    print(f"{a} * {b} = ",a*b)
 
 
-# ---print list element using while loop
+---print list element using while loop
 
 number = [ 1,2,3,4,5,7,8,10,5]
 i = 0 
