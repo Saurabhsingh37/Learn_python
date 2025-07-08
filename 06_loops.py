@@ -45,7 +45,7 @@ while b<=9:
     print(f"{a} * {b} = ",a*b)
 
 
----print list element using while loop
+# ---print list element using while loop
 
 number = [ 1,2,3,4,5,7,8,10,5]
 i = 0 
@@ -63,3 +63,22 @@ while i< len(number):
     else:
         print("finding again : ")
     i+=1        
+    
+
+# Search for a number x in this tuple using loop 
+
+x = 10
+i=0
+a = [2,5,4,3,6,8,10,12,15,9,10]
+for el in a :
+    if(el==x):
+        print ("your element is found",i)
+    i+=1
+else:    
+    print("searching again ")
+    
+
+# ------using pass is  a null statement 
+
+for i in range():
+    pass  # null argument using this feature future
