@@ -1,23 +1,23 @@
-# # creating class and object 
-# class Car:
-#     name = "bmw"
-# a = Car()  
-# print(a) # print only object  location 
-# print(a.name) # print  object property
+# creating class and object 
+class Car:
+    name = "bmw"
+a = Car()  
+print(a) # print only object  location 
+print(a.name) # print  object property
 
 
-# #  constructor - this is a first function of class and it is python automatically created and every object call first constructor or __init__ function in python . 
+#  constructor - this is a first function of class and it is python automatically created and every object call first constructor or __init__ function in python . 
 
-# class Student :
-#     def __init__(self , name ):  #  class constructor 
-#         self.name = name  # self  is reference of object 
-#         print("this is class constructor:")
+class Student :
+    def __init__(self , name ):  #  class constructor 
+        self.name = name  # self  is reference of object 
+        print("this is class constructor:")
 
-# st1 = Student("saurabh")
-# print(st1.name)
+st1 = Student("saurabh")
+print(st1.name)
 
-# st2 = Student("Gaurav")
-# print(st2.name)
+st2 = Student("Gaurav")
+print(st2.name)
 
 
 #  define class attribute and instance attribute 
