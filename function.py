@@ -21,6 +21,8 @@ print(type(u_list))
 
 
 # join and split functions 
+# split = convert string into list
+# join = convert list into string
 a = [2,3,4,6,8]
 b = map(str , a)
 c = ("  ".join(b))
